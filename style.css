@@ -1,0 +1,48 @@
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+section {
+}
+section img {
+  width: 120px;
+  border-radius: 12px;
+}
+section .input {
+  margin-top: 20px;
+  background-color: azure;
+  border: none;
+  border-radius: 12px;
+  padding: 22px;
+  display: block;
+  margin: 22px auto;
+}
+section button{
+    border: none;
+    background-color:pink;
+    padding:7px 22px;
+    border-radius: 7px;
+    color: azure;
+    background: cadetblue;
+    
+}
+section ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+section ul li{
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+section ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
